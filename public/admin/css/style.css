@@ -1,0 +1,36 @@
+
+.paging {
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul.pagination {
+   -ms-flex-pack: center!important;
+    justify-content: center!important;   
+    
+}
+ul.pagination>li {
+  
+}
+ul.pagination>li>a,ul.pagination>li>span {
+    font-size: 18pt;
+    padding: 6px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 1px;
+    background: white;
+}
+
+ul.pagination>li>a:hover {
+    background: #c64bd3c4;
+    color: white;
+    transition: 0.5s;
+}
+
+ul.dropdown-menu.show>li {
+    line-height: 30px;
+    /* background: black; */
+    padding-left: 20px;
+}

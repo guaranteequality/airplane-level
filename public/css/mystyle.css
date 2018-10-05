@@ -1,0 +1,243 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css')
+@font-face {
+font-family: 'IcoMoon-Ultimate';
+    src:url('../fonts/icomoon-ultimate.ttf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
+.jquery-modal.blocker.current{
+    display: none;	
+}
+.modal{
+    overflow: initial;
+}
+.page--index .footer {
+    display: inherit !important;
+}
+.header__account .dropdown {
+    opacity: 1;
+    visibility: inherit;
+    left: -150px;
+    list-style: none;
+}
+
+.header__search-box {
+    float: right;
+    margin-right: 200px;
+}
+
+.btn:hover {
+    color: #2c94e8;
+    text-decoration: none;
+}
+.gallery-photo.tab_slide img{
+    width:100%;
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one 🙂       */
+    display: flex;
+    align-items: center;
+}
+
+div img{
+    width:100%;
+}
+
+.footer{
+    background: #3c3c3c;
+}
+  .footer ul{
+      padding: 0px;
+  }
+.footer li{
+    list-style: none;
+    /*    padding: 0px;*/
+    font-weight: 900;
+    color: white;
+}
+.footer li>ul{
+    /*    list-style: none;*/
+/*    padding: 0px;*/
+    padding-top: 20px;
+}
+
+.form-control{
+       background: #dfe2e4;
+    border-radius: 0px;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #dfe2e4;
+    border: 1px solid #aaa;
+    border-radius: 0px;
+    box-shadow: 0px 1px black;
+    height: 30px;
+}
+.paging {
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+ul.pagination {
+   -ms-flex-pack: center!important;
+    justify-content: center!important;   
+    
+}
+ul.pagination>li {
+  
+}
+ul.pagination>li>a,ul.pagination>li>span {
+    font-size: 18pt;
+    padding: 6px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 1px;
+    background: white;
+}
+
+ul.pagination>li>a:hover {
+    background: #c64bd3c4;
+    color: white;
+    transition: 0.5s;
+}
+
+ul.dropdown-menu.show>li {
+    line-height: 30px;
+    /* background: black; */
+    padding-left: 20px;
+}
+
+
+.dropdown{
+        position: relative;
+    visibility: visible;
+    opacity: 1;
+}
+
+.searchForm{
+    border-radius:10px;
+}
+.searchForm>input{
+    width:280px;
+}
+
+.page--no-ads .alert{
+    top:unset;
+    position:unset;
+}
+
+
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 8em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
+
+/* USER PROFILE PAGE */
+ .card {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(214, 224, 226, 0.2);
+    -webkit-border-top-left-radius:5px;
+    -moz-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+}
+.card.hovercard .card-background {
+    height: 130px;
+}
+.card-background img {
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    margin-left: -100px;
+    margin-top: -200px;
+    min-width: 130%;
+}
+.card.hovercard .useravatar {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .useravatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card.hovercard .card-info {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+}
+.card.hovercard .card-info .card-title {
+    padding:0 5px;
+    font-size: 20px;
+    line-height: 1;
+    color: #262626;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.card.hovercard .card-info {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+.btn-pref .btn {
+    -webkit-border-radius:0 !important;
+}
+   /*slide*/
+   
+   

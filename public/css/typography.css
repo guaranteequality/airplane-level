@@ -1,0 +1,193 @@
+//----------------------------------*\
+// Google Fonts
+//----------------------------------*/
+// 
+// 'Fira Sans', sans-serif;
+// 'Lato', sans-serif;
+// 'Source Sans Pro', sans-serif;
+
+.font-fira-sans {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+//----------------------------------*\
+// IcoMoon - Licensed to daniel.chimen@gmail.com
+//----------------------------------*/
+
+@font-face {
+  font-family: 'IcoMoon-Ultimate';
+  src:  url('#{$fonts}/IcoMoon/fonts/IcoMoon-Ultimate.eot?9pv3i8');
+  src:  url('#{$fonts}/IcoMoon/fonts/IcoMoon-Ultimate.eot?9pv3i8#iefix') format('embedded-opentype'),
+    url('#{$fonts}/IcoMoon/fonts/IcoMoon-Ultimate.ttf?9pv3i8') format('truetype'),
+    url('#{$fonts}/IcoMoon/fonts/IcoMoon-Ultimate.woff?9pv3i8') format('woff'),
+    url('#{$fonts}/IcoMoon/fonts/IcoMoon-Ultimate.svg?9pv3i8#IcoMoon-Ultimate') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'IcoMoon-Ultimate' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up7:before {
+  content: "\e91d";
+}
+.icon-arrow-down7:before {
+  content: "\e91e";
+}
+.icon-arrow-left7:before {
+  content: "\e91f";
+}
+.icon-arrow-right7:before {
+  content: "\e920";
+}
+.icon-arrow-down3:before {
+  content: "\e900";
+}
+.icon-arrow-up3:before {
+  content: "\e901";
+}
+.icon-arrow-left3:before {
+  content: "\e902";
+}
+.icon-arrow-right3:before {
+  content: "\e903";
+}
+.icon-cross2:before {
+  content: "\e904";
+}
+.icon-search:before {
+  content: "\e905";
+}
+.icon-menu7:before {
+  content: "\e906";
+}
+.icon-star-full2:before {
+  content: "\e907";
+}
+.icon-heart3:before {
+  content: "\e908";
+}
+.icon-eye2:before {
+  content: "\e909";
+}
+.icon-image2:before {
+  content: "\e90a";
+}
+.icon-bubble-dots:before {
+  content: "\e90b";
+}
+.icon-question3:before {
+  content: "\e90c";
+}
+.icon-add-heart:before {
+  content: "\e90d";
+}
+.icon-add-photo:before {
+  content: "\e90e";
+}
+.icon-cloud-upload2:before {
+  content: "\e90f";
+}
+.icon-checkmark3:before {
+  content: "\e910";
+}
+.icon-location6:before {
+  content: "\e911";
+}
+.icon-users3:before {
+  content: "\e912";
+}
+.icon-link:before {
+  content: "\e913";
+}
+.icon-briefcase:before {
+  content: "\e914";
+}
+.icon-camera:before {
+  content: "\e915";
+}
+.icon-shutter:before {
+  content: "\e916";
+}
+.icon-medal:before {
+  content: "\e917";
+}
+.icon-envelop3:before {
+  content: "\e918";
+}
+.icon-user2:before {
+  content: "\e919";
+}
+.icon-share3:before {
+  content: "\e91a";
+}
+.icon-cog4:before {
+  content: "\e91b";
+}
+.icon-pencil4:before {
+  content: "\e91c";
+}
+.icon-bell:before {
+  content: "\e921";
+}
+.icon-airplane2:before {
+  content: "\e922";
+}
+.icon-bin:before {
+  content: "\e923";
+}
+
+//----------------------------------*\
+// IcoMoon - Custom styles
+//----------------------------------*/
+
+.icon-top {
+  vertical-align: top;
+}
+
+.icon-middle {
+  vertical-align: sub;
+}
+
+.icon-bottom {
+  vertical-align: bottom;
+}
+
+.icon-small {
+  font-size: 1.20rem;
+  line-height: 1.2;
+}
+
+.icon-medium {
+  font-size: 1.40rem;
+  line-height: 1.4;
+}
+
+.icon-large {
+  font-size: 1.60rem;
+  line-height: 1.6;
+}
+
+.icon-silver {
+  color: $silver;
+}

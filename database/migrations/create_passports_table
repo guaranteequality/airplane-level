@@ -1,0 +1,7 @@
+public function up()
+{
+	Schema::create('passports', function(Blueprint $tabl){
+	$table->increments('id');
+	
+	})
+}
